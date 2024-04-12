@@ -1,0 +1,140 @@
+/* Styles de base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Couleur de fond */
+  color: #ffffff;
+  margin: 0; /* Supprime les marges par défaut du body */
+  padding: 0; /* Supprime les espacements par défaut du body */
+}
+
+/* Styles pour l'en-tête */
+.header {
+  background-image: url('img/banniere.jpg'); /* Image de fond pour l'en-tête */
+  background-size: cover;
+  background-position: center;
+  height: 37vh; /* Hauteur de l'en-tête - 50% de la hauteur de la fenêtre */
+  color: #ffffffc7; /* Couleur du texte sur l'image */
+  text-align: center; /* Centrer le texte horizontalement */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 5.5rem; /* Taille de la police du titre */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la barre de navigation */
+  padding: 10px 0; /* Espacement interne de la barre de navigation */
+  text-align: center; /* Centrer les éléments horizontalement */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: #fff; /* Couleur du texte */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px; /* Espacement intérieur des boutons */
+  border-radius: 5px; /* Coins arrondis des boutons */
+  margin-right: 20px; /* Marge entre les boutons */
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(46, 108, 167, 0.884); /* Couleur de fond au survol */
+  transition: background-color 0.3s ease; /* Transition fluide */
+}
+
+.title {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  height: auto; /* Hauteur automatique */
+}
+
+/* La page d'accueil */
+/* Styles pour la container des articles */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permet à la flexbox de s'envelopper sur plusieurs lignes si nécessaire */
+}
+
+.container-bis {
+  flex: 1 1 50%; /* Chaque article occupe 50% de la largeur du conteneur, peut changer selon la conception souhaitée */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  margin: 20px auto;
+}
+
+/* Styles pour chaque article */
+.article {
+  flex: 1 1 50%; /* Chaque article occupe 50% de la largeur du conteneur, peut changer selon la conception souhaitée */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  margin: 20px auto;
+}
+
+.article-preview {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.article-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+}
+
+
+/* Styles pour le footer */
+footer {
+  background-color: #364fa1; /* Couleur de fond du footer */
+  color: #fff; /* Couleur du texte */
+  padding: 20px 0; /* Espacement interne du footer */
+  text-align: center; /* Centrer le contenu horizontalement */
+  margin-top: 20px; /* Espace supplémentaire en haut du footer */
+  clear: both; /* S'assure que le footer est bien en bas de la page */
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  height: auto; /* Hauteur automatique */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Espace équitablement les éléments */
+  align-items: center; /* Alignement vertical des éléments */
+}
+
+.social-media img {
+  width: 30px; /* Taille des icônes des réseaux sociaux */
+  height: 30px;
+  margin: 0 5px; /* Espacement entre les icônes */
+}
+
+/* Styles pour le widget Discord */
+.discord-widget {
+  width: 85%; /* Prend la largeur complète du conteneur */
+  margin: 20px; /* Marge supplémentaire au-dessus du widget */
+}
+
+
